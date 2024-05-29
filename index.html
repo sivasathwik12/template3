@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    body{
+        margin: 0; 
+        background-color:  rgb(13, 71, 100); 
+    }
+
+    #total{
+        width:65%;
+        margin:auto;
+    }
+
+    #head1{
+        background-color:rgb(0, 77, 153);
+        font-size: 40px;
+        color:white;
+        padding:25px 150px;
+    }
+
+    .head2{
+        display:flex;
+        background-color:rgb(0, 77, 153);
+        padding: 10px;
+        box-shadow: 0px 10px 10px black inset;
+    }
+
+    .head3 a{
+        padding:24px;
+    }
+
+    a.hvrs{
+        color:white;
+    }
+
+    a.hvrs2{
+        color:black;
+    }
+    
+    a.hvrs:hover{
+        color: DodgerBlue;
+    }
+
+    .head4{
+        display:flex;
+        height: 620px;
+    }
+
+    .head42{
+        display: flex;
+    }
+
+    .head5{
+        background-color: white;
+        width:1250px;
+        padding:15px;
+    }
+
+    .clr{
+        color:orange;
+    }
+
+    .head6{
+        border-right:1px solid black;
+        
+    }
+
+    .hrx{
+        border-top:2px solid rgb(0, 77, 153);
+    }
+
+    .head7{
+        background-color: rgb(211,211,211);
+    }
+
+    a.hovline{
+        color:black;
+    }
+
+    a.hovline:link{
+        text-decoration:none;
+    }
+
+    a.hovline:hover{
+        text-decoration: underline;
+    }
+
+    
+
+    .head8{
+        background-color: rgb(0, 77, 153);
+        color: white;
+        height:230px;
+        padding:1px 25px;
+        box-shadow: 0px -3px 10px black;
+    }
+
+    .pclr{
+
+        padding:0px 15px;
+        font-size: 20px;
+    }
+
+    .head42>div:nth-child(2){
+        margin-left: 10px;
+    }
+
+    .head42>div:nth-child(2){
+        margin-right: 10px;
+    }
+
+    .internal1{
+        width:300px;
+    }
+
+    .head91{
+        display:flex;
+        padding: 20px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .head92{
+        display: flex;
+        float:left;
+    }
+
+    .head92 a{
+        padding:0px 15px;
+    }
+
+    .head92 a:hover{
+        color: DodgerBlue;
+    }
+
+    .head10{
+        float:right;
+    }
+
+    .pfloat{
+        float:right;
+    }
+
+    a.liunderline:hover{
+        text-decoration:underline;
+    }
+
+    @media screen and (max-width:1050px){
+
+    .head3 a{
+        padding:10px;
+    }
+
+    .head4{
+        height: 695px;
+    }
+
+    .internal1{
+        width: 190px;
+    }
+
+    .head8{
+        height: 300px;
+    }
+
+    /* .head91{
+        padding:10px;
+    } */
+
+    .head92{
+        display:none
+    }
+    /* .head92 a{
+        padding:0px 10px;
+        width: 100px;
+    }  */
+
+    }
+</style>
+</head>
+<body>
+<div id="total">
+    <div id="head1">
+        <p>Your Company</p>
+    </div>
+    <div class="head2">
+        <div class="head3">
+            <a class="hvrs">Home</a>
+            <a class="hvrs2">|</a>
+            <a class="hvrs">About us</a>
+            <a class="hvrs2">|</a>
+            <a class="hvrs">Recent articles</a>
+            <a class="hvrs2">|</a>
+            <a class="hvrs">Emails</a>
+            <a class="hvrs2">|</a>
+            <a class="hvrs">Resources</a>
+            <a class="hvrs2">|</a>
+            <a class="hvrs">Links</a>
+        </div>
+    </div>
+    <div class="head4" style=" font-family: 'Helvetica', 'Arial', sans-serif;font-size:12px;">
+        <div class="head5">
+            <p class="pclr">Welcome to <a class="clr">our website</a></p>
+            <hr class="hrx">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            <br><br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            <ul>
+                <li> <a class="liunderline">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</a></li><br>
+                <li> <a class="liunderline">Lorem Ipsum is that it has a more-or-less normal distribution of letters,</a></li><br>
+                <li> <a class="liunderline">Lorem Ipsum is that it has a more-or-less normal</a> </li><br>
+                <li> <a class="liunderline">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</a></li><br>
+            </ul>
+            <div class="head42">
+                <div>
+                    <p class="pclr">About <a class="clr">us</a></p>
+                    <hr class="hrx">
+                    <p class="internal1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.
+                    <br><br>
+                    Galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
+                    <p class="pfloat"><b>read more...</b></p>
+                </div>
+                <div class="head6">
+
+                </div>
+                <div>
+                    <p class="pclr">Recent <a class="clr">Articles</a></p>
+                    <hr class="hrx">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. you need to be sure there isn't.
+                    </p>
+                    <p class="pfloat"><b>read more...</b></p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="head7">
+            <p class="pclr">Categ<a class="clr">ories</a></p>
+            <hr class="hrx">
+            <ul>
+                <li><a href="#" class="hovline">Lorem Ipsum is simply dummy</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is simply dummy</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is simply</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is simply</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is simply dummy</a></li><br><br>
+                <li><a href="#" class="hovline">Lorem Ipsum is</a></li>
+            </ul>
+          
+            <div class="head8">
+                <p class="pclr">News</p>
+                <hr class="hrx">
+                <p><b>15.04.2010</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                <br><br>
+                <b>15.04.2010</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                <p class="pfloat"><b>read more...</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="head91">
+        <div class="head92">
+            <a>Home</a>
+            <a>About us</a>
+            <a>Recent articles</a>
+            <a>Email</a>
+            <a>Resources</a>
+            <a>Links</a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <a></a>
+        </div>
+        <div class="head10">
+            <a>© Copyright YYYY. Designed by M SATHWIK</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
